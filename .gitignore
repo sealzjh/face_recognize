@@ -1,0 +1,8 @@
+
+*.pkl
+*.csv
+*.bin
+.pyc
+
+.idea
+data/*

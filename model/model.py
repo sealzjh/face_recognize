@@ -9,16 +9,16 @@ class Net(nn.Module):
             nn.Conv2d(
                 in_channels=3,
                 out_channels=16,
-                kernel_size=3,
+                kernel_size=5,
                 stride=1,
-                padding=1,
+                padding=2,
             ),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),
             nn.Dropout(0.2)
         )
         self.conv2 = nn.Sequential(
-            nn.Conv2d(16, 32, 3, 1, 1),
+            nn.Conv2d(16, 32, 5, 1, 2),
             nn.ReLU(),
             nn.MaxPool2d(2),
             nn.Dropout(0.2)

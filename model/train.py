@@ -8,7 +8,7 @@ from data_set import get_dataset, get_transform
 from model import Net
 import torch.nn.functional as F
 
-# 是否使用GPU
+# 使用GPU
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 

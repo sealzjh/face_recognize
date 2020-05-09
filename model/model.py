@@ -1,5 +1,6 @@
 # -*- encoding: utf8 -*-
 from torch import nn
+import torch.nn.functional as F
 
 
 class Net(nn.Module):
@@ -30,5 +31,5 @@ class Net(nn.Module):
         x = self.conv1(x)
         x = self.conv2(x)
         x = x.view(x.size(0), -1)
-        output = self.out(x)
-        return output
+        x = self.out(x)
+        return F.log_softmax(x, dim=1)

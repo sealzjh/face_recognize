@@ -14,5 +14,4 @@
 ## recognize face
 * $ python main.py predict
 
-## 关注公众号: 老居搞机
-![weixin](weixin.png)
+## 关注公众号: laojuxueji

@@ -18,7 +18,7 @@ def train():
 
 def predict():
     recognize_video()
-    logging.info("test done.")
+    logging.info("predict done.")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,6 @@
 # -*- encoding: utf8 -*-
 import cv2
+import time
 from model.train import predict_model
 import numpy as np
 from PIL import Image, ImageFont, ImageDraw
@@ -47,7 +48,7 @@ def catch_face(frame):
             cv2.rectangle(frame, (x - 10, y - 10), (x + w + 10, y + h + 10), color, 2)
             frame = paint_chinese_opencv(frame, FACE_LABEL[label], (x-10, y+h+10), color)
 
-#        cv2.imwrite("data/tmp/{}.jpg".format(int(time.time())), frame)
+        cv2.imwrite("data/tmp/{}.jpg".format(int(time.time())), frame)
     return frame
 
 

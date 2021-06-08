@@ -4,7 +4,7 @@ future==0.18.2
 numpy==1.16.6
 opencv-python==4.2.0.32
 opencv-python-headless==4.2.0.32
-Pillow==6.2.2
+Pillow==8.2.0
 six==1.14.0
 termcolor==1.1.0
 torch==1.4.0

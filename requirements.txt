@@ -1,7 +1,7 @@
 enum34==1.1.10
 fire==0.3.1
 future==0.18.2
-numpy==1.16.6
+numpy==1.22.0
 opencv-python==4.2.0.32
 opencv-python-headless==4.2.0.32
 Pillow==6.2.2

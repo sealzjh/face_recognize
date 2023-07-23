@@ -1,6 +1,6 @@
 enum34==1.1.10
 fire==0.3.1
-future==0.18.2
+future==0.18.3
 numpy==1.16.6
 opencv-python==4.2.0.32
 opencv-python-headless==4.2.0.32
